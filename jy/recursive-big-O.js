@@ -15,6 +15,7 @@ Output:
  * @param    {number} num - the number sheep 
  * @returns  
  * @display  displays how many sheep jumped over the fence
+ * @bigO     O(n)
  */
 
 function countSheep(num){
@@ -36,6 +37,8 @@ and outputs an array with each input value doubled. Test your solution by trying
 handful of different arrays. For example,
 Input: [1, 2, 3]
 Output: [2, 4, 6]
+BigO: O(n)
+Why: The size of the array determines the number of operations in a linear fashion
 */
 function double_all(arr) {
   if (!arr.length) {
@@ -50,6 +53,8 @@ Write a program that reverses a string. Take a string as input,
 reverse the string, and return the new string.
 Input: 'tauhida'
 Output: adihuat
+Big O: O(n)
+Why: The size of the string determines the number of operations
 */
 
 function reverseString(str) {
@@ -77,6 +82,7 @@ This is the Triangular Number Sequence: 1, 3, 6, 10, 15, 21, 28, 36, 45
 5th = (1+2+3+4+5) = 15
 Input: 5
 Output: 15
+Big O: 
 */
 //Should always return n*(n+1)/2
 function triangle(n) {
