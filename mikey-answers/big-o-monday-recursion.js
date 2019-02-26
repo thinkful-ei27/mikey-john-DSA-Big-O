@@ -115,7 +115,7 @@ function fibonacci(n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-/* O(n^2) polynomial? the double call i do not understand */
+/* O(2^n) exponential- grows extremely quickly as the double return  creates lots of branching
 
 
 function anagrams(prefix, str) {
