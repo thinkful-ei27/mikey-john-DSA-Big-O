@@ -11,5 +11,7 @@ function areYouHere(arr1, arr2) {
   return false;
 }
 
-// Big O notation: O(n)
-// Why: Even though we have a nested loop, the worst case should always be the length of the shortest array
+console.log(areYouHere([1, 2, 3], [4, 5, 3]));
+
+// Big O notation: O(n^2)
+// Why: Worst case scenario would loop entirely through both arrays, thus using quadratic 

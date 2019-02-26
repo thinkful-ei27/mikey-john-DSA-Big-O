@@ -15,5 +15,5 @@ console.log(createPairs([1, 2, 3]));
 console.log(createPairs([1, 2, 3, 4]));
 console.log(createPairs([1, 2, 3, 4, 5]));
 
-// Big O notation: O(logn);
-// Why: 
+// Big O notation: O(n^2);
+// Why: Tick complexity increases at a faster rate for each additional item in the array
